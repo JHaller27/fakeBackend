@@ -1,0 +1,11 @@
+---
+application:
+  name: "fakebackend"
+  project: "FakeFlakyBackend"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-fakebackend"
+  routes:
+  - application_name: "fakebackend"
+    paths:
+    - "/*"
